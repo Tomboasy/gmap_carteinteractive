@@ -1,4 +1,3 @@
-
 <?php
 $link = mysqli_connect("localhost", "root", "root", "dev-tour_riki_20");
 
@@ -36,4 +35,11 @@ $Json .= ']}';
     
 /* Fermeture de la connexion */
 mysqli_close($link);
+
+
+//A exploiter 
+
+global $wpdb;
+ global $post;
+ $images = "SELECT $wpdb->posts.* FROM $wpdb->posts WHERE post_type = 'post' AND post_status = 'publish'";
 ?>
