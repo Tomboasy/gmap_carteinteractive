@@ -1,5 +1,4 @@
-gmap_carteinteractive
+Carte Interactive
 =====================
 
 Carte interactive Google Map
-
