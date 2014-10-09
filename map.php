@@ -19,10 +19,10 @@ var map;
 var data = [
 	{"category":"category1", "latitude":48.4432983398438, "longitude":-68.5397033691406, "title":"Observation du saumon de l'Atlantique", "content":"content 1", "id_icon":"1"},
 	{"category":"category1", "latitude":48.4508018493652, "longitude":-68.5295028686523, "title":"Les Promenades historiques de Rimouski", "content":"content 2", "id_icon":"1"},
-	{"category":"category2", "latitude":48.4575004577637, "longitude":-68.5218963623047, "title":"H�tel Rimouski et Centre de Congr�s", "content":"content 3"},
-	{"category":"category2", "latitude":48.4546012878418, "longitude":-68.5244979858398, "title":"H�tel Le Navigateur", "content":"content 4"},
-    {"category":"category3", "latitude":48.4575004577637, "longitude":-68.5218963623047, "title":"H�tel Rimouski et Centre de Congr�s", "content":"content 3"},
-	{"category":"category3", "latitude":48.4546012878418, "longitude":-68.5244979858398, "title":"H�tel Le Navigateur", "content":"content 4"}
+	{"category":"category2", "latitude":48.4575004577637, "longitude":-68.5218963623047, "title":"Hôtel Rimouski et Centre de Congr�s", "content":"content 3"},
+	{"category":"category2", "latitude":48.4546012878418, "longitude":-68.5244979858398, "title":"Hôtel Le Navigateur", "content":"content 4"},
+    {"category":"category3", "latitude":48.4575004577637, "longitude":-68.5218963623047, "title":"Hôtel Rimouski et Centre de Congr�s", "content":"content 3"},
+	{"category":"category3", "latitude":48.4546012878418, "longitude":-68.5244979858398, "title":"Hôtel Le Navigateur", "content":"content 4"}
 ];
 var pathImage = 'images/pin_' + data.category + '.png';
         
